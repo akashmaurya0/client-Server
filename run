@@ -1,4 +1,4 @@
 #!/bin/sh
 cd `dirname $0`
-../src/client4server -n .:../src $*
-# for shared lib, use: opp_run -l ../src/client4server -n .:../src $*
+../src/lab -n .:../src $*
+# for shared lib, use: opp_run -l ../src/lab -n .:../src $*
